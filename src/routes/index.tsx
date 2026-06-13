@@ -197,13 +197,16 @@ function Index() {
                   <p className="mb-1 text-xs font-bold uppercase tracking-widest text-accent">
                     Stack
                   </p>
-                  <p className="text-sm">MongoDB, Express, React, Node.js</p>
+                  <p className="text-sm">
+                    MongoDB, Express, React, Node.js, postgreSQL, AWS- {`(EC2, EBS, ROUTE53)`}{" "}
+                    Redis, Docker
+                  </p>
                 </div>
                 <div>
                   <p className="mb-1 text-xs font-bold uppercase tracking-widest text-accent">
                     Focus
                   </p>
-                  <p className="text-sm">Full Stack, APIs, AI Systems</p>
+                  <p className="text-sm">Full Stack, APIs, Agentic AI, AI-Chatbot</p>
                 </div>
               </div>
             </div>
