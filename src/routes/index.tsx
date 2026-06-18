@@ -6,6 +6,7 @@ import profilePic from "@/assets/Vikash Kr.jpg";
 import resumeAsset from "@/assets/vikash-kumar-singh-resume.pdf.asset.json";
 import cms from "@/assets/Screenshot 2026-06-13 180004.png";
 import resumae from "@/assets/vikash_kumar_singh_resume.pdf";
+import AI_interview_agent from "@/assets/ai_interview_agent.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -52,16 +53,22 @@ const experience = [
 
 const projects = [
   {
+    title: "AI Interview Agent",
+    subtitle: "The AI Interview Agent is an end-to-end, real-time AI-powered interview platform",
+    image: AI_interview_agent,
+    index: 1,
+  },
+  {
     title: "EdTech Platform Systems",
     subtitle: "Scalable APIs, dashboards, and automated certificate workflows",
     image: edtech,
-    index: 1,
+    index: 2,
   },
   {
     title: "Content Management System",
     subtitle: "MERN platform for adding courses, packages,offline classes resources etc",
     image: cms,
-    index: 2,
+    index: 3,
   },
 ];
 
