@@ -5,7 +5,7 @@ import edtech from "@/assets/edtech.png";
 import profilePic from "@/assets/Vikash Kr.jpg";
 import resumeAsset from "@/assets/vikash-kumar-singh-resume.pdf.asset.json";
 import cms from "@/assets/Screenshot 2026-06-13 180004.png";
-import resumae from "@/assets/vikash_kumar_singh_resume.pdf";
+import resumae from "@/assets/vikash_kummar_singh_resumae.pdf";
 import AI_interview_agent from "@/assets/ai_interview_agent.png";
 
 export const Route = createFileRoute("/")({
